@@ -16,8 +16,6 @@ COPY Map/run.sh/ run.sh
 
 WORKDIR Map
 
-RUN ["chmod","+x","run.sh"]
-
 EXPOSE 5000
 
 EXPOSE 8080
