@@ -12,17 +12,10 @@ COPY app app/
 
 COPY Map Map/
 
-COPY Map/run.sh/ run.sh 
-
 WORKDIR Map
 
 EXPOSE 5000
 
 EXPOSE 8080
 
-RUN pwd
-
-RUN ls -ltr
-
-CMD ["sh","./run.sh"]
-
+CMD ["sh", "./run.sh"]
